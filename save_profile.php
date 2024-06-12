@@ -24,5 +24,5 @@ $target_file = $target_dir . basename($_FILES["profile_pic"]["name"]);
         else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
-
+    }
     ?>
